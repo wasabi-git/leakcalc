@@ -9,7 +9,7 @@ description = "Reference implementations of published methods for estimating com
 readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Ran Tao" }]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = []
 classifiers = [
     "Programming Language :: Python :: 3",

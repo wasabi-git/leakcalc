@@ -27,7 +27,7 @@ Full citations and page numbers are in each module's docstring.
 
 ## Install and use
 
-Requires Python 3.9 or later. No third-party dependencies.
+Requires Python 3.10 or later. No third-party dependencies.
 
 ```bash
 pip install .
@@ -58,7 +58,7 @@ python tools/make_docs.py           # regenerates docs/*.md from the code
 ```
 
 A GitHub Actions workflow ([.github/workflows/tests.yml](.github/workflows/tests.yml)) runs
-`pip install .`, the unit tests and the mutation check on Python 3.9 to 3.13 for every push.
+`pip install .`, the unit tests and the mutation check on Python 3.10 to 3.14 for every push.
 
 `tests/examples.py` holds 33 test cases drawn from six documents (five method
 modules). Some are diagnostic variants of the same printed value. 25 reproduce the
