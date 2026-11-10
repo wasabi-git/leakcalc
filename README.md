@@ -57,6 +57,9 @@ python tools/mutation_check.py      # deliberately breaks constants and formulas
 python tools/make_docs.py           # regenerates docs/*.md from the code
 ```
 
+A GitHub Actions workflow ([.github/workflows/tests.yml](.github/workflows/tests.yml)) runs
+`pip install .`, the unit tests and the mutation check on Python 3.9 to 3.13 for every push.
+
 `tests/examples.py` holds 33 test cases drawn from six documents (five method
 modules). Some are diagnostic variants of the same printed value. 25 reproduce the
 printed value within its rounding. 8 do not; for each of these the notes separate
