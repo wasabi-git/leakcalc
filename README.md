@@ -1,5 +1,7 @@
 # leakcalc
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24121654.svg)](https://doi.org/10.5281/zenodo.24121654)
+
 Reference implementations of published methods for estimating the energy saved by
 repairing compressed-air leaks, each checked against the worked examples printed in
 its source.
@@ -111,7 +113,14 @@ independently in `tests/test_behaviour.py`.
 
 ## Citation
 
-If you use leakcalc, please cite it using the metadata in [CITATION.cff](CITATION.cff).
+If you use leakcalc, please cite it using the metadata in [CITATION.cff](CITATION.cff). The software is
+archived on Zenodo:
+
+- all versions (resolves to the latest release): DOI [10.5281/zenodo.24121654](https://doi.org/10.5281/zenodo.24121654)
+- version 0.1.0 only: DOI [10.5281/zenodo.24121655](https://doi.org/10.5281/zenodo.24121655)
+
+Cite the version DOI when you need the exact release you used (for example, to reproduce a number); cite the
+all-versions DOI to refer to the software in general.
 
 ## License
 

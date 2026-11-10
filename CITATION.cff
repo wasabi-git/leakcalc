@@ -12,6 +12,15 @@ authors:
     given-names: Ran
     orcid: "https://orcid.org/0009-0008-2665-0745"
 version: 0.1.0
+doi: 10.5281/zenodo.24121654
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24121654
+    description: "Concept DOI: all versions of leakcalc (resolves to the latest release)"
+  - type: doi
+    value: 10.5281/zenodo.24121655
+    description: "Version DOI: leakcalc 0.1.0"
+repository-code: "https://github.com/wasabi-git/leakcalc"
 license: MIT
 keywords:
   - compressed air
