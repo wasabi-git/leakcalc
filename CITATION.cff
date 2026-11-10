@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "leakcalc: reference implementations of published methods for estimating compressed-air leak repair savings"
+abstract: >-
+  Python implementations of the leak-savings methods in the IAC training manual
+  (Essentials of Industrial Assessments v3.0), the Self-Assessment Workbook for Small
+  Manufacturers v2.0, DOE Compressed Air Tip Sheet #3, UMP Chapter 22, and Schmidt &
+  Kissock (2004, 2005), each checked against the worked examples printed in its source.
+type: software
+authors:
+  - family-names: Tao
+    given-names: Ran
+    orcid: "https://orcid.org/0009-0008-2665-0745"
+version: 0.1.0
+license: MIT
+keywords:
+  - compressed air
+  - leak repair
+  - energy savings
+  - industrial energy assessment
+  - measurement and verification
